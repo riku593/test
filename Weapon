@@ -1,0 +1,77 @@
+public class Weapon {
+
+    String name;
+    String descript;
+    String attacks;
+    int damage;
+    double dps;
+    int range;
+    double cd;
+
+    public Weapon(String nam, String descr, String att, int dam, int rang, double coold, double dp) {
+        name = nam;
+        descript = descr;
+        attacks = att;
+        damage = dam;
+        dps = dp;
+        range = rang;
+        cd = coold;
+    }
+
+    public String getDescript() {
+        return descript;
+    }
+
+    public void setDescript(String descript) {
+        this.descript = descript;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAttacks() {
+        return attacks;
+    }
+
+    public void setAttacks(String attacks) {
+        this.attacks = attacks;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public void setDamage(int damage) {
+        this.damage = damage;
+    }
+
+    public double getDps() {
+        return dps;
+    }
+
+    public void setDps(double dps) {
+        this.dps = dps;
+    }
+
+    public int getRange() {
+        return range;
+    }
+
+    public void setRange(int range) {
+        this.range = range;
+    }
+
+    public double getCd() {
+        return cd;
+    }
+
+    public void setCd(double cd) {
+        this.cd = cd;
+    }
+
+}
